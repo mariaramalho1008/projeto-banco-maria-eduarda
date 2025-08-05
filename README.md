@@ -1,9 +1,12 @@
 Sistema de Gerenciamento de Locadora de Filmes
 
+
 Este repositório contém o modelo lógico de um banco de dados para um sistema de gerenciamento de locadora de filmes. O sistema foi desenvolvido para armazenar informações sobre clientes, filmes, atores, categorias e empréstimos.
 
+
 Modelo Entidade-Relacionamento
-O modelo ER define as entidades, atributos e relacionamentos necessários para a operação de uma locadora de filmes.
+O modelo MER define as entidades, atributos e relacionamentos necessários para a operação de uma locadora de filmes.
+
 
 Entidades Principais:
 
@@ -38,6 +41,7 @@ DataDevolucao;
 
 
 Relacionamentos
+
 Um cliente pode realizar vários empréstimos. Cada empréstimo pertence a um cliente.
 Um filme pode estar em vários empréstimos, mas cada empréstimo se refere a um único filme.
 Um filme pertence a uma categoria, e uma categoria pode conter vários filmes.
