@@ -55,6 +55,9 @@ Diagrama
 O diagrama do modelo lógico está disponível na imagem:
 ModeloLogic.pdf
 
+Modelo Fisico![ModeloFisico](https://github.com/user-attachments/assets/2de698fd-9a91-44f0-a172-57ef78208b47)
+
+
 Dificuldades
 Durante o desenvolvimento do projeto, enfrentei alguns desafios:
 
