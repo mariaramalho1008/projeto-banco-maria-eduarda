@@ -53,8 +53,10 @@ MySql
 
 
 Consulta exemplo de clientes que estão com o filme 'Barbie' .
-[Uploading Querys.sql…]()
+![Query](https://github.com/user-attachments/assets/d9dc7d86-473c-43ce-a6c8-1ffbb0a70ca8)
 
+Consulta exemplo de filmes cadastrados por categoria.
+![Query1](https://github.com/user-attachments/assets/c6e7e50c-044c-4736-aaf0-048e1de3d3c2)
 
 
 Dificuldades
