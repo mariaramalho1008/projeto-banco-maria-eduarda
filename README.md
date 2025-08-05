@@ -53,7 +53,8 @@ MySql
 
 Diagrama
 O diagrama do modelo lógico está disponível na imagem:
-ModeloLogic.pdf
+[ModeloLogic.pdf](https://github.com/user-attachments/files/21606814/ModeloLogic.pdf)
+
 
 Modelo Fisico![ModeloFisico](https://github.com/user-attachments/assets/2de698fd-9a91-44f0-a172-57ef78208b47)
 
