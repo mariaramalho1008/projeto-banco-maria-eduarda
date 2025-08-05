@@ -6,33 +6,33 @@ O modelo ER define as entidades, atributos e relacionamentos necessários para a
 
 Entidades Principais:
 CLIENTE
-Id (PK)
-Telefone
-Nome
-Endereco
+Id (PK),
+Telefone,
+Nome,
+Endereco;
 
 FILME
-Id (PK)
-Titulo
-idCATEGORIA (FK)
-idATOR (FK)
+Id (PK),
+Titulo,
+idCATEGORIA (FK),
+idATOR (FK);
 
 ATOR
-Id (PK)
-dtNascimento
-nomePopular
-nomeArtistico
+Id (PK),
+dtNascimento,
+nomePopular,
+nomeArtistico;
 
 CATEGORIA
-Id (PK)
-Nome
+Id (PK),
+Nome;
 
 EMPRESTIMO
-Id (PK)
-idFILME (FK)
-idCLIENTE (FK)
-DataEmprestimo
-DataDevolucao
+Id (PK),
+idFILME (FK),
+idCLIENTE (FK),
+DataEmprestimo,
+DataDevolucao;
 
 Relacionamentos
 Um cliente pode realizar vários empréstimos. Cada empréstimo pertence a um cliente.
