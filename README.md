@@ -35,6 +35,7 @@ idCLIENTE (FK),
 DataEmprestimo,
 DataDevolucao;
 
+
 Relacionamentos
 Um cliente pode realizar vários empréstimos. Cada empréstimo pertence a um cliente.
 Um filme pode estar em vários empréstimos, mas cada empréstimo se refere a um único filme.
