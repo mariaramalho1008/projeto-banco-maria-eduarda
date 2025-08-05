@@ -1,4 +1,5 @@
 Sistema de Gerenciamento de Locadora de Filmes
+
 Este repositório contém o modelo lógico de um banco de dados para um sistema de gerenciamento de locadora de filmes. O sistema foi desenvolvido para armazenar informações sobre clientes, filmes, atores, categorias e empréstimos.
 
 Modelo Entidade-Relacionamento
