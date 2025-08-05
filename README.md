@@ -5,6 +5,7 @@ Modelo Entidade-Relacionamento
 O modelo ER define as entidades, atributos e relacionamentos necessários para a operação de uma locadora de filmes.
 
 Entidades Principais:
+
 CLIENTE
 Id (PK),
 Telefone,
