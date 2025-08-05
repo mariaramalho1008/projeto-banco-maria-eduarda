@@ -1,92 +1,54 @@
-🎬 Sistema de Gerenciamento de Locadora de Filmes
+Sistema de Gerenciamento de Locadora de Filmes
 Este repositório contém o modelo lógico de um banco de dados para um sistema de gerenciamento de locadora de filmes. O sistema foi desenvolvido para armazenar informações sobre clientes, filmes, atores, categorias e empréstimos.
 
-🧱 Modelo Entidade-Relacionamento
+Modelo Entidade-Relacionamento
 O modelo ER define as entidades, atributos e relacionamentos necessários para a operação de uma locadora de filmes.
 
-🔍 Entidades Principais
+Entidades Principais:
 CLIENTE
-
 Id (PK)
-
 Telefone
-
 Nome
-
 Endereco
 
 FILME
-
 Id (PK)
-
 Titulo
-
 idCATEGORIA (FK)
-
 idATOR (FK)
 
 ATOR
-
 Id (PK)
-
 dtNascimento
-
 nomePopular
-
 nomeArtistico
 
 CATEGORIA
-
 Id (PK)
-
 Nome
 
 EMPRESTIMO
-
 Id (PK)
-
 idFILME (FK)
-
 idCLIENTE (FK)
-
 DataEmprestimo
-
 DataDevolucao
 
-🔗 Relacionamentos
+Relacionamentos
 Um cliente pode realizar vários empréstimos. Cada empréstimo pertence a um cliente.
-
 Um filme pode estar em vários empréstimos, mas cada empréstimo se refere a um único filme.
-
 Um filme pertence a uma categoria, e uma categoria pode conter vários filmes.
-
 Um filme tem um ator principal, e um ator pode estar presente em vários filmes.
 
-🗃 Dependências Recomendadas
+Dependências Recomendadas
 O modelo foi projetado para ser utilizado em bancos de dados relacionais como:
+MySql
 
-PostgreSQL
-
-MySQL
-
-SQLite
-
-📄 Diagrama
+Diagrama
 O diagrama do modelo lógico está disponível na imagem:
+ModeloLogic.pdf
 
-modelo-logico.png
-
-💡 Possíveis Expansões
-Cadastro de múltiplos atores por filme (relacionamento N:N)
-
-Controle de multas por atraso na devolução
-
-Histórico completo de locações por cliente
-
-Interface gráfica para cadastro e controle
-
-
-❓ Dificuldades
+Dificuldades
 Durante o desenvolvimento do projeto, enfrentei alguns desafios:
 
 Diferenças entre modelo lógico e físico: Tive dúvidas sobre como transformar corretamente o modelo lógico em um modelo físico, especialmente na definição dos tipos de dados, índices e integridade referencial.
